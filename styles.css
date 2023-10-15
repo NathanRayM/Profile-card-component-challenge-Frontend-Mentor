@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+--Darkcyan: hsl(185, 75%, 39%);
+--Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+--Darkgrayishblue: hsl(227, 10%, 46%);
+--Darkgray: hsl(0, 0%, 59%);
+}
+body{
+  font-size: 18px;
+}
+
+.main-section{
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -285px -510px, 693px 375px;
+  background-color: var(--Darkcyan);
+}
+
+.main-container{
+position: absolute;
+  width: 350px;
+  height: 375px;
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.image-container{
+  position: relative;
+  top: 23%;
+  display: flex;
+  justify-content: center;
+  
+}
+.profile-image{
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 28%;
+
+}
+.name{
+  font-family: Kumbh Sans;
+  font-size: 18px;
+
+}
+.age{
+  color: var(--Darkgray);
+  font-weight: 400;
+  margin-left: 5px;
+}
+.location{
+  font-family:Kumbh Sans;
+  font-size: 14px;
+  color: var(--Darkgray);
+}
+
+hr{
+  position: relative;
+  top: 34%;
+  color: var(--Darkgray);
+  opacity: 30%;
+}
+.stats{
+  position: relative;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+ 
+}
+.stats-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.count{
+  font-size: 17px;
+  font-family: Kumbh Sans;
+}
+.label{
+  font-size: 10px;
+  font-family: Kumbh Sans;
+  letter-spacing: 1px;
+  color: var(--Darkgray);
+}
+
+
+@media (max-width: 425px) {
+  .main-section{
+    background-position: -750px -600px, 150px 285px;
+    background-color: var(--Darkcyan);
+  }
+  .main-container{
+    width: 325px;
+  }
+}
