@@ -1,11 +1,11 @@
-![Profile card component]()
+![Profile card component](https://github.com/NathanRayM/Profile-card-component-challenge-Frontend-Mentor/blob/main/images/Profile%20card%20component%20SS.png)
 
 <h1 align="center">Profile card component</h1>
 
 <div align="center">
 
-[Live]()
-| [Solution]()
+[Live](https://nathanraym.github.io/Profile-card-component-challenge-Frontend-Mentor/)
+| [Solution](https://github.com/NathanRayM/Profile-card-component-challenge-Frontend-Mentor.git)
 | [Challenge](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
